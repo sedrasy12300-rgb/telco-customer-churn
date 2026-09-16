@@ -9,7 +9,7 @@ The project also includes an interactive Streamlit web application that allows u
 
 Try the application:
 
-🔗 Streamlit app link will be added after deployment.
+🔗https://telco-customer-churn-nuvjsnvjggmtchhquxpgeq.streamlit.app/
 
 🎯 Project Goal
 The goal of this project is to build a complete machine learning workflow:
