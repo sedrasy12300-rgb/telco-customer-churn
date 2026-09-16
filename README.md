@@ -1,16 +1,23 @@
 📊 Telco Customer Churn Prediction
+
 A machine learning project that predicts whether a telecom customer is likely to churn based on their personal information, subscribed services, contract, and billing details.
+
 The project also includes an interactive Streamlit web application that allows users to enter customer information and receive a churn prediction with an estimated churn probability.
+
 🚀 Live Demo
+
 Try the application:
 
 🔗 Streamlit app link will be added after deployment.
+
 🎯 Project Goal
 The goal of this project is to build a complete machine learning workflow:
 Data → Preprocessing → Model Training → Prediction → Interactive Web App
 The application is designed to help identify customers who may be at risk of leaving the service.
 📂 Dataset
+
 The project uses the Telco Customer Churn dataset.
+
 The dataset contains information about:
 Customer demographics
 Tenure
@@ -22,7 +29,9 @@ Monthly charges
 Total charges
 Customer churn status
 The customerID column was removed because it is an identifier and does not provide useful information for prediction.
+
 🧹 Data Preprocessing
+
 The following preprocessing steps were performed:
 Removed customerID
 Converted Churn from categorical values to binary values:
@@ -33,10 +42,13 @@ Handled missing values in TotalCharges
 Applied one-hot encoding to categorical features
 Prepared the features and target variable for machine learning
 🤖 Machine Learning Model
+
 The project uses a Random Forest Classifier.
 GridSearchCV was used for hyperparameter tuning.
 Because identifying customers who may churn was an important goal, recall was used as the main optimization metric during model tuning.
+
 The final model uses class balancing to help handle the imbalance between churned and non-churned customers.
+
 📈 Model Evaluation
 The model was evaluated using:
 Accuracy
