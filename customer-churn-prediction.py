@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 from sklearn.linear_model import LogisticRegression
-
+import joblib
 
 df =pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
@@ -61,3 +61,4 @@ importance =pd.DataFrame({"Feature":x.columns,"Importance": best_model.feature_i
 
 importance =importance.sort_values(by="Importance",ascending=False)
 print(importance)
+joblib.dump(best_model,"telco_churn_model.pkl")
