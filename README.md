@@ -1,6 +1,7 @@
 📊 Telco Customer Churn Prediction
 
-A machine learning project that predicts whether a telecom customer is likely to churn based on their personal information, subscribed services, contract, and billing details.
+A machine learning project that predicts whether a telecom customer is likely to churn based on their personal information, subscribed services, contract,
+and billing details.
 
 The project also includes an interactive Streamlit web application that allows users to enter customer information and receive a churn prediction with an estimated churn probability.
 
@@ -87,6 +88,7 @@ After clicking Predict Customer Churn, the application displays:
 Whether the customer is likely to churn or stay
 The estimated churn probability
 📁 Project Structure
+
 telco-customer-churn/
 │
 ├── app.py
@@ -94,6 +96,7 @@ telco-customer-churn/
 ├── telco_churn_model.pkl
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
 └── README.md
+
 🛠️ Technologies
 Python
 Pandas
@@ -102,6 +105,7 @@ Joblib
 Streamlit
 Matplotlib
 GitHub
+
 ▶️ Run Locally
 Install the required libraries:
 pip install streamlit pandas scikit-learn joblib
