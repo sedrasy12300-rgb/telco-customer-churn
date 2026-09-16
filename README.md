@@ -91,10 +91,15 @@ The estimated churn probability
 
 telco-customer-churn/
 │
+
 ├── app.py
+
 ├── customer_churn_prediction.py
+
 ├── telco_churn_model.pkl
+
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+
 └── README.md
 
 🛠️ Technologies
