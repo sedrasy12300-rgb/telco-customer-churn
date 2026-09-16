@@ -108,11 +108,16 @@ GitHub
 
 ▶️ Run Locally
 Install the required libraries:
+
 pip install streamlit pandas scikit-learn joblib
+
 Run the Streamlit application:
+
 streamlit run app.py
 💡 What I Learned
+
 Through this project, I practiced:
+
 Data preprocessing
 Categorical feature encoding
 Handling missing values
